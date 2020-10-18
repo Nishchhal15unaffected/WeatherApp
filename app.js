@@ -1,7 +1,7 @@
 const request =require('request');
 const forecast=require('./utility/forecast');
 const geocode=require('./utility/geocode');
-/*const url="http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=ccc810637adc5c06d3385361a69618b6";
+/*
 request({url:url,json:true},(error,response,body)=>{
 	if(error)
 	{
@@ -12,7 +12,6 @@ request({url:url,json:true},(error,response,body)=>{
 	console.log("it is currently"+response.body.main.temp+"there is 0% chance of rain");
 }
 });*/
- /*const geourl="https://api.mapbox.com/geocoding/v5/mapbox.places/Los%20Angeles.json?access_token=pk.eyJ1IjoibmlzaGNoaGFsMTIzNCIsImEiOiJja2FrbGU5cjUwbGhmMnpwNmI2OW41bzl3In0.rEjXxg5vjoOoPhxYo_TLrw&limit=1";
 request({url:geourl,json:true},(error,response)=>{
 	if(error)
 	{
