@@ -1,6 +1,6 @@
 const request=require('request');
 const forecast=(lo,le,callback)=>{
-	const url="https://samples.openweathermap.org/data/2.5/weather?lat="+le+"&lon="+lo+"&appid=ccc810637adc5c06d3385361a69618b6";
+	const url="";
 	request({url,json:true},(error,{body})=>{
 		if(error)
 		{
