@@ -1,6 +1,6 @@
 const request=require('request');
 const forecast=(address,callback)=>{
-	const url="http://api.openweathermap.org/data/2.5/find?q="+address+"&appid=ccc810637adc5c06d3385361a69618b6&units=metric";
+	const url="openweatherapp url ";
 	request({url,json:true},(error,response)=>{
 		if(error)
 		{
